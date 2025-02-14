@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar{
+            
+            height: 65px;
+            background-color: rgb(0, 4, 255);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+     .image{
+        width: 120px;
+        margin-right: 150px;
+       }
+       .menu-items{
+        display: flex;
+        color: white;
+        font-size: 18px;
+        justify-content: space-around;
+        width: 600px;
+        font-weight: 500;
+       }
+       
+       button{
+        background-color: green;
+        border-radius: 3px;
+       }
+       @media screen and (max-width:991px) {
+        .navbar{
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            justify-items: baseline;
+        }
+        .menu-items{
+            display: flex;
+            flex-direction: column;
+            width: auto;
+        }
+        .id{
+             color: red;
+        }
+       }
+        
+    </style>
+</head>
+<body>
+            <div class="navbar">
+                
+                <img class="image"src="flip.png" alt="" >
+         <div class="menu-items">
+               <span class="id">Home</span>
+               <span class="id">navbar1</span>
+               <span class="id">Table</span>
+               <span class="id">forms</span>
+               <span class="id">others</span>
+            </div>
+            <div class="btn">
+                <button>Login</button>
+                <button>Register</button>
+            </div>
+</body>
+</html>

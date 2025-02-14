@@ -1,0 +1,44 @@
+/*p{
+    font-size: 32px;
+    font-weight: 900;
+}
+h1{
+    font-size: 15px;
+    font-weight: 100;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid green;
+    background-color: black;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+#box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid rgb(0, 60, 255);
+}*/
+.container{
+    height: 400px;
+    width: 300px;
+    border: 2px solid red;
+    background-color: rgb(0, 0, 0);
+
+}
+.box{
+    background-color: blue;
+    height: 50px;
+    
+    border: 2px solid red
+}
+.box2{
+    height: 40px;
+    background-color: blueviolet;
+    margin-top: 150px;
+}
+.box3{
+    height: 40px;
+    background-color: blueviolet;
+    margin-top: 115px;
+}
